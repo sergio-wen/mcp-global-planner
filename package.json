@@ -1,0 +1,33 @@
+{
+  "name": "gloryfham-mcp-global-planner",
+  "version": "1.0.0",
+  "description": "荣耀全球路径规划师 — 联动保险与移民签证的智能规划 MCP Server",
+  "type": "module",
+  "bin": {
+    "gloryfham-mcp-global-planner": "./bin/mcp.js"
+  },
+  "main": "src/index.js",
+  "files": [
+    "src/",
+    "bin/",
+    "data/",
+    "SKILL.md"
+  ],
+  "scripts": {
+    "start": "node bin/mcp.js",
+    "dev": "node --watch bin/mcp.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0"
+  },
+  "keywords": [
+    "mcp",
+    "claude",
+    "insurance",
+    "visa",
+    "immigration",
+    "global-planner",
+    "gloryfham"
+  ],
+  "license": "MIT"
+}
