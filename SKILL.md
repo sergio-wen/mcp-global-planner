@@ -12,7 +12,7 @@ metadata:
     install:
       - id: npm
         kind: node
-        package: "gloryfham-mcp-global-planner"
+        package: "@gloryfham/mcp-global-planner"
         bins: ["gloryfham-mcp-global-planner"]
         label: "Install Glory Global Path Planner MCP Server"
 ---

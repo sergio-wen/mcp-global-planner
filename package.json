@@ -1,5 +1,5 @@
 {
-  "name": "gloryfham-mcp-global-planner",
+  "name": "@gloryfham/mcp-global-planner",
   "version": "1.0.0",
   "description": "荣耀全球路径规划师 — 联动保险与移民签证的智能规划 MCP Server",
   "type": "module",
